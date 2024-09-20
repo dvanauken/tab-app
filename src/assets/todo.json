@@ -1,0 +1,225 @@
+[
+  {
+    "id": 1,
+    "parent_id": null,
+    "name": "Kitchen",
+    "description": "Kitchen"
+  },
+  {
+    "id": 2,
+    "parent_id": 1,
+    "name": "W18",
+    "description": "W18"
+  },
+  {
+    "id": 3,
+    "parent_id": 2,
+    "name": "Drill pocket holes if any",
+    "description": "Drill pocket holes if any"
+  },
+  {
+    "id": 4,
+    "parent_id": 2,
+    "name": "Attatch stiles",
+    "description": "Attatch stiles"
+  },
+  {
+    "id": 5,
+    "parent_id": 2,
+    "name": "Attach Frame",
+    "description": "Attach Frame"
+  },
+  {
+    "id": 6,
+    "parent_id": 2,
+    "name": "Sand / Paint",
+    "description": "Sand / Paint"
+  },
+  {
+    "id": 7,
+    "parent_id": 1,
+    "name": "W30",
+    "description": "W30"
+  },
+  {
+    "id": 8,
+    "parent_id": 7,
+    "name": "Drill pocket holes if any",
+    "description": "Drill pocket holes if any"
+  },
+  {
+    "id": 9,
+    "parent_id": 7,
+    "name": "Sand / Paint",
+    "description": "Sand / Paint"
+  },
+  {
+    "id": 10,
+    "parent_id": 1,
+    "name": "W36",
+    "description": "W36"
+  },
+  {
+    "id": 11,
+    "parent_id": 10,
+    "name": "Touch socket area",
+    "description": "Touch socket area"
+  },
+  {
+    "id": 12,
+    "parent_id": 10,
+    "name": "Attach socket",
+    "description": "Attach socket"
+  },
+  {
+    "id": 13,
+    "parent_id": 1,
+    "name": "Corner 1",
+    "description": "Corner 1"
+  },
+  {
+    "id": 14,
+    "parent_id": 13,
+    "name": "Top",
+    "description": "Top"
+  },
+  {
+    "id": 15,
+    "parent_id": 14,
+    "name": "Fit",
+    "description": "Fit"
+  },
+  {
+    "id": 16,
+    "parent_id": 14,
+    "name": "Sand/Paint",
+    "description": "Sand/Paint"
+  },
+  {
+    "id": 17,
+    "parent_id": 13,
+    "name": "Frame",
+    "description": "Frame"
+  },
+  {
+    "id": 18,
+    "parent_id": 17,
+    "name": "Glue Up",
+    "description": "Glue Up"
+  },
+  {
+    "id": 19,
+    "parent_id": 17,
+    "name": "Sand / Paint",
+    "description": "Sand / Paint"
+  },
+  {
+    "id": 20,
+    "parent_id": 13,
+    "name": "Attach Frame",
+    "description": "Attach Frame"
+  },
+  {
+    "id": 21,
+    "parent_id": 13,
+    "name": "Attach top",
+    "description": "Attach top"
+  },
+  {
+    "id": 22,
+    "parent_id": 1,
+    "name": "Corner 2",
+    "description": "Corner 2"
+  },
+  {
+    "id": 23,
+    "parent_id": 22,
+    "name": "Redrill holes",
+    "description": "Redrill holes"
+  },
+  {
+    "id": 24,
+    "parent_id": 22,
+    "name": "Fit shelves",
+    "description": "Fit shelves"
+  },
+  {
+    "id": 25,
+    "parent_id": 22,
+    "name": "Top",
+    "description": "Top"
+  },
+  {
+    "id": 26,
+    "parent_id": 25,
+    "name": "Frame",
+    "description": "Frame"
+  },
+  {
+    "id": 27,
+    "parent_id": 25,
+    "name": "Sand/Paint",
+    "description": "Sand/Paint"
+  },
+  {
+    "id": 28,
+    "parent_id": 22,
+    "name": "Glue up",
+    "description": "Glue up"
+  },
+  {
+    "id": 29,
+    "parent_id": 28,
+    "name": "Sand / Paint",
+    "description": "Sand / Paint"
+  },
+  {
+    "id": 30,
+    "parent_id": 28,
+    "name": "Attach Frame",
+    "description": "Attach Frame"
+  },
+  {
+    "id": 31,
+    "parent_id": 22,
+    "name": "Attach top",
+    "description": "Attach top"
+  },
+  {
+    "id": 32,
+    "parent_id": 22,
+    "name": "Demolition",
+    "description": "Demolition"
+  },
+  {
+    "id": 33,
+    "parent_id": 1,
+    "name": "Walls",
+    "description": "Walls"
+  },
+  {
+    "id": 34,
+    "parent_id": 33,
+    "name": "Floor",
+    "description": "Floor"
+  },
+  {
+    "id": 35,
+    "parent_id": 22,
+    "name": "Build out remaining cabinets",
+    "description": "Build out remaining cabinets"
+  },
+  {
+    "id": 36,
+    "parent_id": 1,
+    "name": "Cabinet 1",
+    "description": "Cabinet 1"
+  },
+  {
+    "id": 37,
+    "parent_id": 36,
+    "name": "Cabinet 2",
+    "description": "Cabinet 2"
+  }
+]
+

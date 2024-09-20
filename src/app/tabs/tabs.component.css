@@ -1,0 +1,67 @@
+/* Wrapper around the entire tabs component */
+.tabs-wrapper {
+  display: flex;
+  flex-direction: column; /* Allow vertical stacking of tabs and content */
+  border: 1px solid #000;
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  box-sizing: border-box; /* Ensure padding and borders are included in height calculation */
+}
+
+/* Tab headers (the tabs themselves) */
+.tab-headers {
+  display: flex;
+  background-color: red;
+  border-bottom: 1px solid #000; /* Keep black border below unselected tabs */
+  margin-bottom: 0;
+}
+
+/* Individual tab button (unselected tabs) */
+.tab-headers button {
+  padding: 10px 20px;
+  margin-right: 5px;
+  background-color: blue; /* Background color for unselected tabs */
+  border: none; /* Remove the border for unselected tabs */
+  border-radius: 5px 5px 0 0; /* Rounded top corners */
+  cursor: pointer;
+  color: white; /* Text color to stand out on blue background */
+  position: relative;
+  outline: none;
+}
+
+/* Active tab (selected) */
+.tab-headers button.active {
+  background-color: #fff; /* Active tab is white */
+  font-weight: bold;
+  border: 1px solid #000;
+  border-bottom: none; /* Remove bottom border to visually connect with content area */
+  z-index: 1;
+  position: relative;
+  margin-bottom: -1px; /* Adjust the margin to eliminate overlap and dog-leg */
+  color: black; /* Set text color to black for the active tab */
+}
+
+/* Close button (x) */
+.tab-headers button::after {
+  content: 'x';
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Content area */
+.tab-content {
+  background-color: #fff; /* White content area */
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 0 0 5px 5px; /* Rounded bottom corners */
+  border-top: none; /* Remove top border to make active tab appear connected */
+  min-height: 200px;
+  position: relative;
+  z-index: 0; /* Content area behind the active tab */
+  flex-grow: 1; /* This allows the content area to fill remaining space */
+  overflow-y: auto; /* Ensure scroll if content exceeds available height */
+}
